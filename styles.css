@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  width: 300px;
+  height: 260px;
+}
+
+li {
+  list-style: none;
+  width: 300px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+.menu-kleur {
+  margin-top: 200px;
+  margin-left: 200px;
+}
+
+i {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.home-btn {
+  background-color: grey;
+  text-align: center;
+}
+
+.red-btn {
+  background-color: red;
+  text-align: center;
+}
+.orange-btn {
+  background-color: orange;
+  text-align: center;
+}
+
+.purple-btn {
+  background-color: purple;
+  text-align: center;
+}
+
+.green-btn {
+  background-color: green;
+  text-align: center;
+}
