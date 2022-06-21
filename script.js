@@ -7,7 +7,7 @@ const orange = document.querySelector(".orange-btn");
 const purple = document.querySelector(".purple-btn");
 const green = document.querySelector(".green-btn");
 
-el=document.getElementById("home-btn")
+el=document.getElementById("menu-kleur")
 el.addEventListener("click",(e)=>{
     console.log(e)
 })
