@@ -12,6 +12,7 @@ hamburger.addEventListener("click", (e) => {
 
 });
 
-menu.addEventListener("click", (e) => {
-  home.classList.toggle("active");
+home.addEventListener("click", (e) => {
+  menu.classList.toggle("active");
+  home.style.backgroundColor("active");
 });
