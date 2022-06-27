@@ -9,6 +9,7 @@ const green = document.querySelector(".green-btn");
 
 hamburger.addEventListener("click", (e) => {
   menu.classList.toggle("active");
+  hamburger.classList.toggle("active");
 });
 
 menu.addEventListener("click", (e) => {
