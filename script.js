@@ -1,3 +1,4 @@
+const body = document.querySelector("colors");
 const menu = document.querySelector(".menu-kleur");
 const hamburger = document.querySelector(".fa-solid");
 
@@ -13,5 +14,25 @@ hamburger.addEventListener("click", (e) => {
 
 home.addEventListener("click", (e) => {
   menu.classList.toggle("active");
-  body.style.background-color="grey";
+  document.body.style.backgroundColor="grey";
+});
+
+red.addEventListener("click", (e) => {
+  menu.classList.toggle("active");
+  document.body.style.backgroundColor="red";
+});
+
+orange.addEventListener("click", (e) => {
+  menu.classList.toggle("active");
+  document.body.style.backgroundColor="orange";
+});
+
+purple.addEventListener("click", (e) => {
+  menu.classList.toggle("active");
+  document.body.style.backgroundColor="purple";
+});
+
+green.addEventListener("click", (e) => {
+  menu.classList.toggle("active");
+  document.body.style.backgroundColor="green";
 });
