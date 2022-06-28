@@ -13,5 +13,5 @@ hamburger.addEventListener("click", (e) => {
 
 home.addEventListener("click", (e) => {
   menu.classList.toggle("active");
-  body.style.backgroundcolor="grey";
+  body.style.background-color="grey";
 });
