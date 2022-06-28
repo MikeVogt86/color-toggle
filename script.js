@@ -8,6 +8,11 @@ const orange = document.querySelector(".orange-btn");
 const purple = document.querySelector(".purple-btn");
 const green = document.querySelector(".green-btn");
 
+var links =document.querySelector(".menu-kleur");
+
+
+
+
 hamburger.addEventListener("click", (e) => {
   menu.classList.toggle("active");
 });
@@ -36,3 +41,15 @@ green.addEventListener("click", (e) => {
   menu.classList.toggle("active");
   document.body.style.backgroundColor="green";
 });
+
+hamburger.addEventListener("mouseover", (e) => {
+  menu.classList.toggle("active");
+});
+
+
+
+For (i=1; 1<=Links.Length;i++) {
+  console.log("this is link number" +i);
+}
+
+document.write("all links now looped");
