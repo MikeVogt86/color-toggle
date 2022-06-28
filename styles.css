@@ -31,26 +31,27 @@ i {
   margin-left: 50px;
 }
 
-.home-btn {
+.menu-options {
   background-color: grey;
   text-align: center;
+  
 }
 
-.red-btn {
+.menu-options {
   background-color: red;
   text-align: center;
 }
-.orange-btn {
+.menu-options {
   background-color: orange;
   text-align: center;
 }
 
-.purple-btn {
+.menu-options {
   background-color: purple;
   text-align: center;
 }
 
-.green-btn {
+.menu-options {
   background-color: green;
   text-align: center;
 }
