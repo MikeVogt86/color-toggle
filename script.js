@@ -8,7 +8,7 @@ const orange = document.querySelector(".orange-btn");
 const purple = document.querySelector(".purple-btn");
 const green = document.querySelector(".green-btn");
 
-var links =document.querySelector(".menu-kleur");
+var links =document.querySelectorAll(".menu-options");
 
 
 
@@ -47,9 +47,17 @@ hamburger.addEventListener("mouseover", (e) => {
 });
 
 
+links.addEventListener("click", (e) => {
+  menu.classList.toggle("active");
+  document.body.style.backgroundColor="grey";
+  document.body.style.backgroundColor="red";
+  document.body.style.backgroundColor="orange";
+  document.body.style.backgroundColor="purple";
+  document.body.style.backgroundColor="green";
+  For (i=1; 1<=Links.Length;i++) {
 
-For (i=1; 1<=Links.Length;i++) {
-  console.log("this is link number" +i);
-}
+    console.log("this is link number" +i);
+  }
+});
 
-document.write("all links now looped");
+
