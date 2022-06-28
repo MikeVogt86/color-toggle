@@ -1,12 +1,12 @@
-/*const body = document.querySelector("colors");*/
+const body = document.querySelector("colors");
 const menu = document.querySelector(".menu-kleur");
 const hamburger = document.querySelector(".fa-solid");
 
-const home = document.querySelector(".menu-options");
+/*const home = document.querySelector(".menu-options");
 const red = document.querySelector(".menu-options");
 const orange = document.querySelector(".menu-options");
 const purple = document.querySelector(".menu-options");
-const green = document.querySelector(".menu-options");
+const green = document.querySelector(".menu-options");*/
 
 const links = document.querySelectorAll(".menu-options");
 
@@ -45,7 +45,8 @@ hamburger.addEventListener("mouseover", (e) => {
 
 for (let i = 0; i < links.length; i++) {
   links[i].addEventListener("click", function (event) {
-    document.write(event.target.value);
+    document.body.style.backgroundColor = event.target.getAttribute('value');
+    console.log(event.target.getAttribute);
   });
 }
 
